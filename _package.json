@@ -1,0 +1,23 @@
+{
+  "name": "divar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start_ts": "tsc -w",
+    "start_dev_server": "nodemon ./src/app.js",
+    "start_production": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.4",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
