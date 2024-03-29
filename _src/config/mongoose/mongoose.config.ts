@@ -10,7 +10,7 @@ export const connectToDB = () =>
   mongoose
     .connect(process.env.MONGODB_URI as string)
     .then(() => {
-      console.log("database Connected Successfully");
+      console.log("Database Connected Successfully");
     })
     .catch((err) => {
       console.clear();
